@@ -1,0 +1,39 @@
+
+
+/* links */
+a {
+	text-decoration: none;
+}
+a:link {
+	
+}
+a:visited {
+	
+}
+a:hover {
+	opacity: .25;
+}
+a:active {
+	
+}
+
+/* buttons */
+#buyNow {
+	border-radius: 5px;
+	border: 1px solid #50975c;
+	background-color: #dea0f7;
+	color: #fff;
+	padding: 3px;
+	margin: 5px;
+	display: inline-block;
+}
+#cart {
+	border-radius: 5px;
+	border: 1px solid #dea0f7;
+	background-color: #50975c;
+	color: #fff;
+	padding: 3px;
+	margin: 5px;
+	display: inline-block;
+
+}

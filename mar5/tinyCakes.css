@@ -1,0 +1,100 @@
+/** {
+	border: 1px solid green;
+}*/
+h2 {
+	text-align: center;
+}
+
+#wrapper {
+	background-image: url(images/backgrounds/new_year_background.png);
+	margin-top: 20px; 
+	position: relative;
+}
+#container {
+	background-color: #f2f2f2;
+	width: 80%;
+	margin: 0 auto;
+}
+#navRight {
+	float: right;
+	display: inline-block;
+}
+
+.floatRight {
+	/*display: inline-block;*/
+	float: right;
+}
+.floatLeft {
+	/*display: inline-block;*/
+	float: left;
+}
+
+li {
+	/*display: inline;*/
+	text-decoration: none; 
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	color: #677178;
+	text-shadow: .5px .5px #e5cc71;
+	
+}
+img {
+	/*width: 100%;*/
+	margin: 0 5px;
+}
+/* links */
+a {
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	color: #000;
+	
+}
+a:link {
+	
+}
+a:visited {
+	text-decoration: overline;
+}
+a:hover {
+	opacity: .25;
+	color: #000;
+
+}
+a:active {
+	
+}
+
+/* buttons */
+#buyNow {
+	border-radius: 5px;
+	border: 1px solid #50975c;
+	background-color: #dea0f7;
+	display: inline-block;
+	clear: both;
+	
+	
+}
+#cart {
+	border-radius: 5px;
+	border: 1px solid #dea0f7;
+	background-color: #50975c;
+	display: inline-block;
+	clear: both;
+}
+#footer {
+	background-color: #dea0f7;
+	clear: both;
+	text-align: center;
+	font-style: italic; 
+	font-weight: bold;
+}
+
+/*background-repeat: no-repeat, repeat;*/

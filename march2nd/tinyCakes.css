@@ -1,0 +1,79 @@
+* {
+	border: 1px solid green;
+}
+
+#wrapper {
+	background-image: url(images/backgrounds/new_year_background.png);
+	margin-top: -20px; 
+}
+#container {
+	position: relative;
+}
+
+li {
+	/*display: inline;*/
+	text-decoration: none; 
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	color: #76def7;
+	
+}
+/*img {
+	width: 100%;
+}*/
+/* links */
+a {
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	color: #fff;
+	
+}
+a:link {
+	
+}
+a:visited {
+	
+}
+a:hover {
+	opacity: .25;
+	color: #000;
+}
+a:active {
+	
+}
+
+/* buttons */
+#buyNow {
+	border-radius: 5px;
+	border: 1px solid #50975c;
+	background-color: #dea0f7;
+	display: inline-block;
+	clear: both;
+	
+	
+}
+#cart {
+	border-radius: 5px;
+	border: 1px solid #dea0f7;
+	background-color: #50975c;
+	display: inline-block;
+	clear: both;
+}
+
+.floatRight {
+	/*display: inline-block;*/
+	float: right;
+}
+.floatLeft {
+	/*display: inline-block;*/
+	float: left;
+}
+/*background-repeat: no-repeat, repeat;*/
